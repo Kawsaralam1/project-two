@@ -1,0 +1,57 @@
+@media screen and (max-width:600px) {
+    .container{
+    width:100%;
+    margin:1rem 0.5rem;
+    border-radius: 1rem;
+    }
+   .navbar{
+       gap: 200px;
+    }
+    .nav-menu p{
+        display:none;
+    }
+    .nav-menu > .hambarger{
+        display:block;
+    
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-text-content{
+       width:100%;
+       padding:10px;
+       margin:0rem 3rem; 
+    }
+
+    .banner-title{
+    color:white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.btn-container{
+    display:flex;
+}
+.banner-image-content{
+    width:100%;
+    position:relative;
+}
+.btn-banner{
+    padding:12px 18px;
+    position:absolute;
+    top:10%;
+    left:45%;
+}
+.btn-banner-tutorial{
+    padding:10px 18px;
+    position:absolute;
+    bottom:25%;
+    left: 5%;  
+}
+
+
+
+
+
+
+}
