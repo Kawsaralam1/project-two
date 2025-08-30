@@ -335,6 +335,9 @@ p{
 }
 
 /* Meet Our Team Section  */
+.our-team{
+    margin-bottom: 5rem;
+}
 .text-container{
     width:50%;
     margin:4rem auto;
@@ -374,4 +377,85 @@ p{
     /* color:white; */
     bottom:10%;
     left:10%;
+}
+
+/* /* Footer Section Start here   */
+.footer{
+    max-width: 1440px;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section{
+   width: 1059px;
+    height: 249px;
+    margin:3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text-content{
+    width: 443px;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-title{
+    color: rgba(230, 83, 60, 1);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+    
+}
+
+.get-start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    list-style: none;
+  
+}
+.get-title{
+color: rgba(255, 255, 255, 1);
+font-size: 2rem;
+font-weight: 700;
+
+}
+.get-menu{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    gap:20px;
+}
+.get-start2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    list-style: none;
+   
+}
+.get-start a,
+.get-start2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+        
+} 
+.hr{
+    margin:0 auto;
+    width:1060px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+#footer-span {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
 }

@@ -114,9 +114,32 @@
 .team-image-container {
     grid-template-columns: 1fr;
 }
+.footer{
+    height:986px;
+}
+.footer-section{
+    width:90%;
+    height:100%;
+    margin:0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-text-content{
+    width: 390px;
+    height: 190px;
+    /* margin-bottom: 1rem; */
+}
 
-
-
-
-
+.get-start, 
+.get-start2{
+    margin-top: 1rem;
+}
+.hr{
+    margin:0 auto;
+    width:350px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.hr-content{
+    margin-top: 3rem;
+}
 }
