@@ -13,7 +13,7 @@ body{
     width:90%;
     margin:2rem auto;
     border-radius: 1rem;
-    
+    border:2px solid red;
 }
 
 h4{
@@ -267,4 +267,113 @@ p{
     border:none;
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* Tranings and Exercises Section Css style starts here --> */
+
+.training-text-content{
+    width:50%;
+    height:150px;
+    margin:1rem auto;
+    text-align: center;
+    border:2px solid green;
+}
+.row-1,
+.row-2{
+    display:grid;
+    grid-template-columns: 0.75fr 1.30fr 0.95fr;
+    margin:1rem auto;
+}
+.row-2{
+    grid-template-columns: 1.10fr 0.80fr 1.10fr;
+}
+.training-exercise img{
+    width:100%;
+    height:300px;
+}
+.exercise1{
+    filter:
+}
+.exercise-card1,
+.exercise-card2,
+.exercise-card3,
+.exercise-card4,
+.exercise-card5,
+.exercise-card6{
+    position:relative;
+   
+}
+
+.training1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    font-size: 18px;
+    color:black;
+}
+.training2{
+    position:absolute;
+    top:20%;
+    left:10%;
+    font-size: 18px;
+    color:white;
+}
+.training3{
+    position:absolute;
+    bottom:10%;
+    left:10%;
+    font-size: 18px;
+    color:white;
+}
+.training4,
+.training5,
+.training6{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    font-size: 18px;
+    color:white; 
+}
+
+/* Meet Our Team Section  */
+.text-container{
+    width:50%;
+    margin:4rem auto;
+    border:2px solid green;
+    text-align: center;
+}
+.information >p{
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+}
+.trainer{
+    color: rgba(255, 255, 255, 0.5);
+}
+.team-image-container {
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:20px;
+    padding:20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    border:2px solid yellow;
+
+}
+.team-image-container img{
+    width:100%;
+    height:300px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+.our-team-card{
+    position:relative;
+}
+.information{
+    position:absolute;
+    /* color:white; */
+    bottom:10%;
+    left:10%;
 }
